@@ -15,7 +15,7 @@ from tests.common.mellanox_data import is_mellanox_device
 
 pytestmark = [
     pytest.mark.topology('t0'),
-    pytest.mark.asic('mellanox', 'barefoot')
+    pytest.mark.asic('mellanox', 'barefoot', 'innovium')
 ]
 
 logger = logging.getLogger(__name__)

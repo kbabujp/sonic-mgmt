@@ -330,6 +330,8 @@ def get_asic_name(duthost):
 
     if asic_type == 'cisco-8000':
         asic = "cisco-8000"
+    elif asic_type == 'innovium':
+        asic = "innovium"
     elif asic_type in ('mellanox', 'broadcom'):
         asic = _get_asic_name(asic_type)
     elif asic_type == 'vs':

@@ -10,7 +10,7 @@ from tests.common.gu_utils import create_checkpoint, delete_checkpoint, rollback
 from tests.common.gu_utils import is_valid_platform_and_version
 
 pytestmark = [
-    pytest.mark.asic('mellanox'),
+    pytest.mark.asic('mellanox','innovium'),
     pytest.mark.topology('any'),
 ]
 
